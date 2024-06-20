@@ -1,11 +1,12 @@
-
-import './App.css';
-
+import Login from "./components/LoginForm/Login"
+import "./components/LoginForm/Login.css"
 
 function App() {
-
-return <h1>Hello</h1>
-
+    return(
+        <div>
+            <Login/>
+        </div>
+    )
 }
 
 export default App;

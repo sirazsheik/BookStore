@@ -1,0 +1,326 @@
+.mainn-container{
+
+    /* background-color:rgb(126, 126, 213); */
+    background-image: linear-gradient(to bottom right,rgb(112, 112, 199),rgb(5, 5, 156));
+  
+    height: 100vh;
+  
+    display: flex;
+  
+    justify-content: center;
+  
+    align-items: center;
+    padding-top:45px;
+  
+  }
+  
+  .second-main{
+  
+    display: flex;
+  
+  }
+  
+  .image{
+  
+    background-size: cover;
+    background-color: blue;
+  
+    width:100%;
+  
+    height:60vh;
+  
+    border-top-left-radius:9px;
+  
+    border-bottom-left-radius: 9px;
+  
+  }
+  
+  .secondHalf{
+  
+    /* background-image: linear-gradient(to bottom right,rgb(171, 171, 239),rgb(63, 63, 148)); */
+    background-color:rgb(246, 246, 246);
+  
+    height:60vh;
+  
+    border-bottom-right-radius:9px;
+  
+    border-top-right-radius:9px;
+  
+    width:70vh;
+  
+  }
+  
+  .imagediv{
+  
+    height:81vh;
+  
+    width:65vh;
+  
+  }
+  
+  .corner-btn{
+  
+    flex:1;
+  
+    display: flex;
+  
+    justify-content: end;
+  
+    margin-top:5vh;
+  
+    padding-right:10vh;
+  
+  }
+  
+  .loginformdiv{
+  
+    display: flex;
+  
+    padding-left:12vh;
+  
+    height:68vh;
+  
+    width:58vh;
+  
+  }
+  
+  .formitems{
+  
+    width:50vh;
+  
+  }
+  
+  .h6{
+  
+    margin-bottom: 5px;
+  
+  }
+  
+  .input{
+    width:40vh;
+    border-bottom-color: black;
+    border-width:1.5px;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style:hidden;
+    outline: none;
+    background-color:rgb(246, 246, 246);
+  }
+  
+  .input:focus{
+  
+    outline: none;
+  
+  }
+  
+  .submit-btn{
+  
+    margin-top:3vh;
+  
+    width:41vh;
+  
+    height:6vh;
+  
+    background-color:rgba(29, 83, 232, 0.975);
+  
+    color:white;
+  
+    border-radius:5px;
+  
+    border-style:hidden;
+  
+  }
+  
+  .btn-login{
+  
+    background-color: rgb(247, 247, 247);
+  
+    border-color:darkgreen;
+  
+    border-width:1.5px;
+  
+    border-top-left-radius:6px;
+  
+    border-bottom-left-radius:6px;
+  
+  }
+  
+  .btn-register{
+  
+    background-color:rgba(29, 83, 232, 0.975);
+  
+    color:white;
+  
+    border-top-right-radius:6px;
+  
+    border-bottom-right-radius:6px;
+  
+    border:1px;
+  
+  }
+  
+  .submit-btn:hover{
+  
+    cursor:pointer;
+  
+  }
+  
+  .btn-login:hover{
+  
+    cursor:pointer;
+  
+  }
+  
+  .btn-register:hover{
+  
+    cursor: pointer;
+  
+  }
+  
+  .ancor{
+  
+    padding-top:3vh;
+    color: whitesmoke;
+  
+    display: flex;
+  
+    font-size:13px;
+  
+  }
+  
+  .member-anchor{
+    color:white;
+    padding-left:24px;
+  
+  }
+  
+  @media only screen and (max-width:600px){
+  
+    .mainn-container{
+  
+      background-color:darkgreen;
+  
+      height:100vh;
+  
+      /* display: flex;
+  
+      justify-content: center;
+  
+      align-items: center; */
+  
+    }
+  
+    .second-main{
+  
+      display: flex;
+  
+      flex-direction:column;
+  
+      align-items: center;
+  
+      width:100%;
+  
+      height:100%;
+  
+    }
+  
+    .imagediv{
+        display:flex;
+        justify-content: center;
+        overflow: hidden;
+        margin-top:30px;
+        width:50%;
+        height:20%;
+        padding-bottom: 0%;
+    }
+    .image{
+      width:70%; 
+      height:70%;
+      border-radius:50%;
+    }
+  
+    .secondHalf{
+  
+      display: flex;
+  
+      flex-direction: column;
+  
+      height:55vh;
+  
+      border-radius:9px;
+  
+      width:35vh;
+  
+    }
+  
+    .loginformdiv{
+  
+      width:35vh;
+  
+      padding-bottom:40px;
+  
+      padding-left:10px;
+  
+    }
+  
+    .formitems{
+  
+      width:20vh;
+  
+    }
+  
+    .corner-btn{
+  
+      display: flex;
+  
+      justify-content: end;
+  
+      margin-top:2vh;
+  
+      padding-right:5vh;
+  
+    }
+  
+    .input{
+  
+      width:30vh;
+  
+    }
+  
+    .submit-btn{
+  
+      width:30vh;
+  
+      height:4vh;
+  
+    }
+  
+    .member-anchor{
+  
+      padding-left:40px;
+  
+    }
+  
+    .ancor{
+  
+      height:4vh;
+  
+      width: 33vh;
+  
+      font-size:10px;
+  
+    }
+  
+    .h6{
+  
+      margin-top:2px;
+  
+    }
+  
+    .h1{
+  
+      font-size: medium;
+  
+    }
+  
+  }
