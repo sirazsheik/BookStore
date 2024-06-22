@@ -56,3 +56,24 @@
     opacity: 0px;
     background-color:#0284C7;
 }
+.home-heading4{
+    width: 601px;
+    height: 64px;
+    /* top: 137px; */
+    margin-left: 100px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: left;
+    color: #1E293B;
+}
+.secound-half{
+    width: 1520px;
+    height: 1024px;
+    gap: 0px;
+    opacity: 0px;
+    background: #F5F7FA;
+}
