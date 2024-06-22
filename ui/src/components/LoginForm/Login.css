@@ -16,9 +16,9 @@
 }
 
 .second-main{
-
-  display: flex;
-  box-shadow: 10px 10px 5px lightblue;
+    height:69%;
+    display: flex;
+    box-shadow: 10px 10px 5px lightblue;
 
 }
 
@@ -29,7 +29,7 @@
 
   width:100%;
 
-  height:60vh;
+  height:69%;
 
   border-top-left-radius:9px;
 
@@ -38,53 +38,48 @@
 }
 
 .secondHalf{
-  background-image: linear-gradient(to bottom,rgb(112, 112, 199),rgb(5, 5, 156));
+    background-image: linear-gradient(to bottom,rgb(112, 112, 199),rgb(5, 5, 156));
 
-  /* background-image: linear-gradient(to bottom right,rgb(171, 171, 239),rgb(63, 63, 148)); */
-  /* background-color:rgb(246, 246, 246); */
+    /* background-image: linear-gradient(to bottom right,rgb(171, 171, 239),rgb(63, 63, 148)); */
+    /* background-color:rgb(246, 246, 246); */
 
-  height:60vh;
+    height:69vh;
 
-  border-bottom-right-radius:9px;
+    border-bottom-right-radius:9px;
 
-  border-top-right-radius:9px;
+    border-top-right-radius:9px;
 
-  width:70vh;
+    width:70vh;
 
 }
 
 .imagediv{
 
-  height:81vh;
+    height:65%;
 
-  width:65vh;
+    width:65vh;
 
 }
 
 .corner-btn{
-
-  flex:1;
-
-  display: flex;
-
-  justify-content: end;
-
-  margin-top:5vh;
-
-  padding-right:10vh;
-
+    flex:1;
+    display: flex;
+    justify-content: end;
+    margin-top:4vh;
+    margin-bottom:5vh;
+    height:20px;
+    padding-right:10vh;
 }
 
 .loginformdiv{
 
-  display: flex;
+    display: flex;
 
-  padding-left:12vh;
+    padding-left:10vh;
 
-  height:68vh;
+    height:57vh;
 
-  width:58vh;
-
+    width:58vh;
 }
 
 .formitems{
@@ -100,16 +95,16 @@
 }
 
 .input{
-  width:40vh;
-  background-color: transparent;
-  border: 2px solid white;
-  padding: 15px;
- color: white;
-  opacity: 0.9;
-  outline: none;
-  border-top-style: hidden;
-  border-left-style: hidden;
-  border-right-style:hidden;
+    width:40vh;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: 15px;
+    color: white;
+    opacity: 0.9;
+    outline: none;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style:hidden;
 }
 
 ::-webkit-input-placeholder{
@@ -117,85 +112,56 @@
 }
 
 .submit-btn{
-
-  margin-top:3vh;
-
-  width:41vh;
-
-  height:6vh;
-
-  background-color:rgba(29, 83, 232, 0.975);
-
-  color:white;
-
-  border-radius:5px;
-
-  border-style:hidden;
-  cursor: pointer;
-
+    margin-top:3vh;
+    width:41vh;
+    height:6vh;
+    background-color:rgba(29, 83, 232, 0.975);
+    color:white;
+    border-radius:5px;
+    border-style:hidden;
+    cursor: pointer;
 }
 
 .btn-login{
-
-  background-color: rgb(247, 247, 247);
-
-  border-color:darkgreen;
-
-  border-width:1.5px;
-
-  border-top-left-radius:6px;
-
-  border-bottom-left-radius:6px;
-
+    height:3.5vh;
+    width:8vh;
+    background-color: rgb(247, 247, 247);
+    border-width:1.5px;
+    cursor: pointer;
 }
 
 .btn-register{
+    height:3.5vh;
+    width:10vh;
+    background-color:rgba(29, 83, 232, 0.975);
+    color:white;
+    border: 0.5em;
+    cursor: pointer;
+}
 
+.btn-login:hover,
+.btn-register:hover,
+.submit-btn:hover{
   background-color:rgba(29, 83, 232, 0.975);
-
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transform: scale(1.1); 
   color:white;
-
-  border-top-right-radius:6px;
-
-  border-bottom-right-radius:6px;
-
-  border:1px;
-
-}
-
-/* .submit-btn:hover{
-
-  cursor:pointer;
-
-} */
-
-.btn-login:hover{
-
-  cursor:pointer;
-
-}
-
-.btn-register:hover{
-
-  cursor: pointer;
-
 }
 
 .ancor{
-
-  padding-top:3vh;
-  color: whitesmoke;
-
-  display: flex;
-
-  font-size:13px;
-
+    padding-top:3vh;
+    color: whitesmoke;
+    display: flex;
+    flex-direction:row;
+    gap:30%;
+    font-size:13px;
 }
-
-.member-anchor{
+.anchor-link{
   color:white;
-  padding-left:24px;
-
+}
+.member-anchor{
+    color:white;
+    padding-left:26px;
 }
 
 @media only screen and (max-width:600px){

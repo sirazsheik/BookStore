@@ -1,0 +1,101 @@
+.main-container{
+    background-image: linear-gradient(to bottom right,rgb(112, 112, 199),rgb(5, 5, 156));
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:45px;
+    color: white;
+}
+.middlediv{
+    height:69%;
+    display: flex;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.imagediv{
+    height:69vh;
+    width:65vh;
+}
+.image{
+    background-size: cover;
+    background-color: blue;
+    width:100%;
+    height:69vh;
+    border-top-left-radius:9px;
+    border-bottom-left-radius: 9px;
+}
+.formcontainer{
+    background-image: linear-gradient(to bottom,rgb(112, 112, 199),rgb(5, 5, 156));
+    height:69vh;
+    border-bottom-right-radius:9px;
+    border-top-right-radius:9px;
+    width:70vh;
+}
+.registrationformdiv{
+    display: flex;
+    padding-left:10vh;
+    height:63vh;
+    width:58vh;
+}
+.registrationformitems{
+    width:50vh;
+}
+.inputEle{
+    width:40vh;
+    background-color: transparent;
+    border: 2px solid white;
+    padding:10px;
+    color: white;
+    opacity: 0.9;
+    outline: none;
+    border-top-style: hidden;
+    border-left-style: hidden;
+    border-right-style:hidden;
+}
+::-webkit-input-placeholder{
+    color:white;
+}
+.ptag{
+    margin-bottom:3px;
+}
+.signup-btn{
+    margin-top:3vh;
+    width:41vh;
+    height:6vh;
+    background-color:rgba(29, 83, 232, 0.975);
+    color:white;
+    border-radius:5px;
+    border-style:hidden;
+    cursor: pointer;
+}
+.corner-btns{
+    flex:1;
+    display: flex;
+    justify-content: end;
+    margin-top:2.5vh;
+    height:20px;
+    padding-right:10vh;
+}
+.register-btn{
+    height:3.5vh;
+    width:10vh;
+    background-color: rgb(247, 247, 247);
+    border-width:1.5px;
+    cursor: pointer;
+}
+.login-btn{
+    height:3.5vh;
+    width:8vh;
+    background-color:rgba(29, 83, 232, 0.975);
+    color:white;
+    border: 0.5em;
+    cursor: pointer;
+}
+.login-btn:hover,
+.register-btn:hover,
+.signup-btn:hover{
+    background-color:rgba(29, 83, 232, 0.975);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.1); 
+    color:white;
+}
