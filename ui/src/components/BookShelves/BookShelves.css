@@ -1,0 +1,183 @@
+navbar-brand{
+    width:134px;
+    height:42px;
+}
+.navbar{
+    width: 1520px;
+    height: 89px;
+    gap: 0px;
+    opacity: 0px;
+    border: 1px;
+    background-color: #ffffff;
+}
+.brandlogo{
+    margin-left: 150px;
+    width: 133px;
+    height:41px;
+}
+.imagelogodiv{
+    margin-top: 20px;
+    height:56px;
+    width:134px;
+}
+.formitemscontainer{
+    display: flex;
+    gap: 1rem;
+    margin-right:190px;
+}
+.nav-home{
+    cursor: pointer;
+    width: 46px;
+    height: 24px;
+    color: #64748B;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+}
+.nav-bookshelves{
+    cursor: pointer;
+    width: 96px;
+    height: 24px;
+    color:#0284C7;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+.nav-btn{
+    width: 73px;
+    height:30px;
+    gap: 0px;
+    opacity: 0px;
+    color:white;
+    font-size: medium;
+    gap: 8px;
+    border: transparent;
+    border-radius: 4px 4px 4px 4px;
+    opacity: 0px;
+    background-color:#0284C7;
+}
+.main-div{
+    width: 1520px;
+    height:auto;
+    gap: 0px;
+    opacity: 0px;
+    background: #F5F7FA;
+}
+.categories-div{
+    width:40vh;
+    height:auto;
+    background-color: #ffffff;
+    padding-left:20px;
+    padding-top:20px; 
+}
+.categorieitems-div{
+    padding-top:15px;
+    width:30vh;
+}
+.All{
+    font-family: Inter;
+    color:#0284C7;
+    cursor: pointer;
+}
+.headingiteams{
+    font-family: Inter;
+    color: #64748B;
+    cursor: pointer;
+}
+.second-div{
+    margin-left:150px;
+    margin-top:80px;
+}
+.second-main-div{
+    display: flex;
+}
+.search-bar-div{
+    display: flex;
+    justify-content: space-between;
+    width:130vh;
+    height:25px;
+    padding-left:30px;
+}
+.input-group-text{
+    width:20%;
+}
+.form-control{
+    width:30vh;
+}
+.text-div{
+    display:flex;
+}
+.input-group-text{
+    width:6vh;
+}
+.cards-main-container{
+    padding-left:30px;
+    padding-top:25px;
+    width:60vh;
+}
+.card-image{
+    height:155px;
+    width:133px;
+    border-radius:8px;
+}
+.card-image:hover,
+.books-details-div:hover{
+    cursor: pointer;
+    border:2px solid black;
+}
+.books-details-div{
+    padding-left:20px;
+    border-radius:9px;
+}
+.rating-div{
+    display: flex;
+}
+.card-div{
+    display: flex;
+    width:45vh;
+}
+.font-for-all{
+    font-family: Inter;
+}
+.heading{
+    color: #334155;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.bookscontainer{
+    margin-left:8vh;
+    margin-right:30vh;
+}
+.descrition{
+    font-family: Inter;
+    padding-top:5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.dynamic-div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.footer-icons{
+    display: flex;
+    justify-content:center;
+    padding-top:50px;
+    gap: 2rem;
+    color: #3D3C3C;
+}
+.footer{
+    display: flex;
+    justify-content:center;
+    padding-top:50px;
+    color:#3D3C3C;
+}

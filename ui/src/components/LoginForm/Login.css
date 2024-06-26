@@ -1,176 +1,152 @@
-.mainn-container{
-
-  /* background-color:rgb(126, 126, 213); */
-  background-image: linear-gradient(to bottom right,rgb(112, 112, 199),rgb(5, 5, 156));
-
-  height: 100vh;
-
+.background-main{
+  background-image: linear-gradient(to bottom right, rgb(112, 112, 199), rgb(5, 5, 156));
   display: flex;
-
   justify-content: center;
-
   align-items: center;
-  padding-top:45px;
+  padding-top:15vh;
+}
+.mainn-container {
+  height:90vh;
   color: white;
 
 }
-
-.second-main{
-    height:69%;
-    display: flex;
-    box-shadow: 10px 10px 5px lightblue;
-
+.second-main {
+  height:65vh;
+  display: flex;
+  box-shadow: 10px 10px 5px lightblue;
 }
 
-.image{
+.image {
 
   background-size: cover;
   background-color: blue;
-
   width:100%;
-
-  height:69%;
-
-  border-top-left-radius:9px;
-
+  height:65vh;
+  border-top-left-radius: 9px;
   border-bottom-left-radius: 9px;
-
 }
 
-.secondHalf{
-    background-image: linear-gradient(to bottom,rgb(112, 112, 199),rgb(5, 5, 156));
-
-    /* background-image: linear-gradient(to bottom right,rgb(171, 171, 239),rgb(63, 63, 148)); */
-    /* background-color:rgb(246, 246, 246); */
-
-    height:69vh;
-
-    border-bottom-right-radius:9px;
-
-    border-top-right-radius:9px;
-
-    width:70vh;
-
+.secondHalf {
+  background-image: linear-gradient(to bottom, rgb(112, 112, 199), rgb(5, 5, 156));
+  height:65vh;
+  border-bottom-right-radius: 9px;
+  border-top-right-radius: 9px;
+  width: 70vh;
 }
 
 .imagediv{
-
-    height:65%;
-
-    width:65vh;
-
+  height:65vh;
+  width:65vh;
 }
 
-.corner-btn{
-    flex:1;
-    display: flex;
-    justify-content: end;
-    margin-top:4vh;
-    margin-bottom:5vh;
-    height:20px;
-    padding-right:10vh;
+.corner-btn {
+  flex: 1;
+  display: flex;
+  justify-content: end;
+  margin-top: 4vh;
+  margin-bottom: 5vh;
+  height: 20px;
+  padding-right: 10vh;
 }
 
-.loginformdiv{
-
-    display: flex;
-
-    padding-left:10vh;
-
-    height:57vh;
-
-    width:58vh;
+.loginformdiv {
+  display: flex;
+  padding-left:10vh;
+  height:60vh;
+  width:58vh;
 }
 
-.formitems{
-
-  width:50vh;
-
+.formitems {
+  /* display: flex;
+  flex-direction: column; */
+  width: 50vh;
+}
+.main-heading{
+  padding-bottom:3vh;
 }
 
-.h6{
-
+.h6 {
   margin-bottom: 5px;
-
 }
 
-.input{
-    width:40vh;
-    background-color: transparent;
-    border: 2px solid white;
-    padding: 15px;
-    color: white;
-    opacity: 0.9;
-    outline: none;
-    border-top-style: hidden;
-    border-left-style: hidden;
-    border-right-style:hidden;
+.input {
+  width:40vh;
+  background-color: transparent;
+  border: 2px solid white;
+  padding:15px;
+  color: white;
+  outline: none;
+  border-top-style: hidden;
+  border-left-style: hidden;
+  border-right-style: hidden;
 }
 
-::-webkit-input-placeholder{
+::-webkit-input-placeholder {
   color: white;
 }
 
-.submit-btn{
-    margin-top:3vh;
-    width:41vh;
-    height:6vh;
-    background-color:rgba(29, 83, 232, 0.975);
-    color:white;
-    border-radius:5px;
-    border-style:hidden;
-    cursor: pointer;
+.submit-btn {
+  margin-top: 3vh;
+  width: 41vh;
+  height: 6vh;
+  background-color: rgba(29, 83, 232, 0.975);
+  color: white;
+  border-radius: 5px;
+  border-style: hidden;
+  cursor: pointer;
 }
 
-.btn-login{
-    height:3.5vh;
-    width:8vh;
-    background-color: rgb(247, 247, 247);
-    border-width:1.5px;
-    cursor: pointer;
+.btn-login {
+  height: 3.5vh;
+  width: 8vh;
+  background-color: rgb(247, 247, 247);
+  border-width: 1.5px;
+  cursor: pointer;
 }
 
-.btn-register{
-    height:3.5vh;
-    width:10vh;
-    background-color:rgba(29, 83, 232, 0.975);
-    color:white;
-    border: 0.5em;
-    cursor: pointer;
+.btn-register {
+  height: 3.5vh;
+  width: 10vh;
+  background-color: rgba(29, 83, 232, 0.975);
+  color: white;
+  border: 0.5em;
+  cursor: pointer;
 }
 
 .btn-login:hover,
 .btn-register:hover,
-.submit-btn:hover{
-  background-color:rgba(29, 83, 232, 0.975);
+.submit-btn:hover {
+  background-color: rgba(29, 83, 232, 0.975);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transform: scale(1.1); 
-  color:white;
+  transform: scale(1.1);
+  color: white;
 }
 
-.ancor{
-    padding-top:3vh;
-    color: whitesmoke;
-    display: flex;
-    flex-direction:row;
-    gap:30%;
-    font-size:13px;
-}
-.anchor-link{
-  color:white;
-}
-.member-anchor{
-    color:white;
-    padding-left:26px;
+.ancor {
+  padding-top:3vh;
+  color: whitesmoke;
+  display: flex;
+  flex-direction: row;
+  gap: 30%;
+  font-size: 13px;
 }
 
-@media only screen and (max-width:600px){
+.anchor-link {
+  color: white;
+}
 
-  .mainn-container{
+.member-anchor {
+  color: white;
+  padding-left: 26px;
+}
 
-    background-color:darkgreen;
+@media only screen and (max-width:600px) {
 
-    height:100vh;
+  .mainn-container {
+
+    background-color: darkgreen;
+
+    height: 100vh;
 
     /* display: flex;
 
@@ -180,114 +156,115 @@
 
   }
 
-  .second-main{
-
-    display: flex;
-
-    flex-direction:column;
-
-    align-items: center;
-
-    width:100%;
-
-    height:100%;
-
-  }
-
-  .imagediv{
-      display:flex;
-      justify-content: center;
-      overflow: hidden;
-      margin-top:30px;
-      width:50%;
-      height:20%;
-      padding-bottom: 0%;
-  }
-  .image{
-    width:70%; 
-    height:70%;
-    border-radius:50%;
-  }
-
-  .secondHalf{
+  .second-main {
 
     display: flex;
 
     flex-direction: column;
 
-    height:55vh;
+    align-items: center;
 
-    border-radius:9px;
+    width: 100%;
 
-    width:35vh;
-
-  }
-
-  .loginformdiv{
-
-    width:35vh;
-
-    padding-bottom:40px;
-
-    padding-left:10px;
+    height: 100%;
 
   }
 
-  .formitems{
+  .imagediv {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 30px;
+    width: 50%;
+    height: 20%;
+    padding-bottom: 0%;
+  }
 
-    width:20vh;
+  .image {
+    width: 70%;
+    height: 70%;
+    border-radius: 50%;
+  }
+
+  .secondHalf {
+
+    display: flex;
+
+    flex-direction: column;
+
+    height: 55vh;
+
+    border-radius: 9px;
+
+    width: 35vh;
 
   }
 
-  .corner-btn{
+  .loginformdiv {
+
+    width: 35vh;
+
+    padding-bottom: 40px;
+
+    padding-left: 10px;
+
+  }
+
+  .formitems {
+
+    width: 20vh;
+
+  }
+
+  .corner-btn {
 
     display: flex;
 
     justify-content: end;
 
-    margin-top:2vh;
+    margin-top: 2vh;
 
-    padding-right:5vh;
-
-  }
-
-  .input{
-
-    width:30vh;
+    padding-right: 5vh;
 
   }
 
-  .submit-btn{
+  .input {
 
-    width:30vh;
-
-    height:4vh;
+    width: 30vh;
 
   }
 
-  .member-anchor{
+  .submit-btn {
 
-    padding-left:40px;
+    width: 30vh;
+
+    height: 4vh;
 
   }
 
-  .ancor{
+  .member-anchor {
 
-    height:4vh;
+    padding-left: 40px;
+
+  }
+
+  .ancor {
+
+    height: 4vh;
 
     width: 33vh;
 
-    font-size:10px;
+    font-size: 10px;
 
   }
 
-  .h6{
+  .h6 {
 
-    margin-top:2px;
+    margin-top: 2px;
 
   }
 
-  .h1{
+  .h1 {
 
     font-size: medium;
 
