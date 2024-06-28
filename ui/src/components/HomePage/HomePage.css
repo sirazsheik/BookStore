@@ -1,33 +1,36 @@
 .navbar-brand{
-    width:134px;
-    height:42px;
+    width:50%;
+    margin-left:90px;
 }
 .navbar{
-    width: 1520px;
-    height: 89px;
-    gap: 0px;
-    opacity: 0px;
-    border: 1px;
+    display: flex;
+    justify-content: center;
+    width:100%;
     background-color: #ffffff;
 }
+.container-fluid{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+}
 .brandlogo{
-    margin-left: 150px;
-    width: 133px;
-    height:41px;
+    width:50%;
+    padding:20px;
 }
 .imagelogodiv{
-    margin-top: 20px;
-    height:56px;
-    width:134px;
+    width:100%;
 }
 .formitemss{
     display: flex;
-    gap: 1rem;
-    margin-right:190px;
+    justify-content: center;
+    align-items: center;
+    gap:5rem;
+    margin-right:30px;
+    width:50%;
 }
 .nav-home{
-    width: 46px;
-    height: 24px;
+    /* width:100%; */
+    /* height: 24px; */
     color:#0284C7;
     font-family: Inter;
     font-size: 16px;
@@ -38,11 +41,9 @@
 }
 .nav-bookshelves{
     cursor: pointer;
-    width: 96px;
-    height: 24px;
+    /* width:100%; */
+    /* height: 24px; */
     color: #64748B;
-    gap: 0px;
-    opacity: 0px;
     font-family: Inter;
     font-size: 16px;
     font-weight: 400;
@@ -50,21 +51,14 @@
     text-align: left;
 }
 .nav-btn{
-    width: 73px;
-    height:30px;
-    gap: 0px;
-    opacity: 0px;
     color:white;
-    font-size: medium;
-    gap: 8px;
+    font-size:auto;
     border: transparent;
     border-radius: 4px 4px 4px 4px;
-    opacity: 0px;
     background-color:#0284C7;
 }
 .home-text{
-    width: 601px;
-    height: 64px;
+    width:100%;
     padding-top:15px;
     margin-left:150px;
     gap: 0px;
@@ -77,15 +71,16 @@
     color: #1E293B;
 }
 .main-div{
-    width: 1520px;
-    height: 1024px;
+    width: 100%;
+    /* height:100px; */
+    min-height:100%;
     gap: 0px;
     opacity: 0px;
     background: #F5F7FA;
 }
 .paragraph{
-    width:998px; 
-    height:64px;
+    width:100%; 
+    /* height:64px; */
     padding-top:8px;
     padding-left:150px;
     font-family: Inter;
@@ -94,8 +89,8 @@
     line-height: 32px;
 }
 .top-rated-div{
-    width: 1240px;
-    height:577px;
+    width:100%;
+    /* height:577px; */
     margin-top:30px;
     margin-left:150px;
     gap: 0px;
@@ -103,7 +98,7 @@
     opacity: 0px;    
 }
 .top-rated-books{
-    width:1100px;
+    width:100%;
     display: flex;
     justify-content: space-between;
     padding-top:30px;
@@ -119,8 +114,8 @@
     text-align: center;
 }
 .find-btn{
-    width:100px;
-    height:30px;
+    width:100%;
+    /* height:30px; */
     gap: 0px;
     opacity: 0px;
     color:white;
@@ -132,16 +127,20 @@
     background-color:#0284C7;  
 }
 .carousel-div{
-    width:1100px;
-    height:500px;
+    width:100%;
+    /* height:500px; */
     padding-left:40px;
 }
 .carousel-images{
-    width:1100px;
-    height:500px;
+    width:100%;
+    /* height:500px; */
 }
 .carousel-text{
     color:white;
+}
+.Imagebox{
+    width:100%;
+    gap:40px;
 }
 .footer-icons{
     display: flex;

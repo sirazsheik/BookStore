@@ -1,7 +1,7 @@
-import "bootstrap/dist/css/bootstrap.min.css";
+// import "bootstrap/dist/css/bootstrap.min.css";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faSearch} from "@fortawesome/free-solid-svg-icons"
-import {Link} from "react-router-dom";
+// import {Link} from "react-router-dom";
 import { faGoogle, faTwitter, faInstagram, faYoutube } from '@fortawesome/free-brands-svg-icons';
 // import { faSearch } from '@fortawesome/free-brands-svg-icons';
 import './BookShelves.css';
@@ -538,9 +538,10 @@ const Bookshelves=()=>{
                 <div className="container-fluid">
                     <a className="navbar-brand" href="$"><img className="brandlogo" src="/images/Homelogo1.png" alt="homelogo"/></a>
                     <form className="formitemscontainer">
-                        <Link to="/home">
+                        {/* <Link to="/home">
                           <h6 className="nav-home">Home</h6>
-                        </Link>
+                        </Link> */}
+                        <h6 className="nav-home">Home</h6>
                         <h6 className="nav-bookshelves">bookshelves</h6>
                         <button className="nav-btn" type="submit">logout</button>
                     </form>
