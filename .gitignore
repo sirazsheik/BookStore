@@ -30,14 +30,12 @@ yarn-error.log*
 venv/
 
 # Ignore the Django migrations directory
-*/migrations/
+
 
 # Ignore local settings files
 */settings_local.py
 
 # Ignore database files
-*.sqlite3
-*.db
 
 # Ignore static files collected by Django
 /staticfiles/
