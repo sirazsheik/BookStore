@@ -84,7 +84,7 @@
 }
 
 .input {
-  width: 40vh;
+    width: 40vh;
     background-color: transparent;
     border: 0;
     border-bottom: 2px solid white;
@@ -114,6 +114,10 @@
   border-style: hidden;
   cursor: pointer;
 }
+.error_message{
+  color: red;
+}
+
 
 .btn-login {
   padding: 5px 10px;

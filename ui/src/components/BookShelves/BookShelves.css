@@ -1,86 +1,24 @@
-navbar-brand{
-    width:134px;
-    height:42px;
-}
-.navbar{
-    width: 1520px;
-    height: 89px;
-    gap: 0px;
-    opacity: 0px;
-    border: 1px;
-    background-color: #ffffff;
+.main-divcontainer{
+    width:100%;
+    min-height:100%;
+    background-color:#F8FAFC;
 }
 .brandlogo{
-    margin-left: 150px;
-    width: 133px;
-    height:41px;
+    min-height:30px;
+    max-height:40px;
 }
 .imagelogodiv{
-    margin-top: 20px;
-    height:56px;
-    width:134px;
-}
-.formitemscontainer{
-    display: flex;
-    gap: 1rem;
-    margin-right:190px;
-}
-.nav-home{
-    cursor: pointer;
-    width: 46px;
-    height: 24px;
-    color: #64748B;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 600;
-    line-height: 24px;
-    text-align: left;
-}
-.nav-bookshelves{
-    cursor: pointer;
-    width: 96px;
-    height: 24px;
-    color:#0284C7;
-    gap: 0px;
-    opacity: 0px;
-    font-family: Inter;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 24px;
-    text-align: left;
-}
-.nav-btn{
-    width: 73px;
-    height:30px;
-    gap: 0px;
-    opacity: 0px;
-    color:white;
-    font-size: medium;
-    gap: 8px;
-    border: transparent;
-    border-radius: 4px 4px 4px 4px;
-    opacity: 0px;
-    background-color:#0284C7;
-}
-.main-div{
-    width: 1520px;
-    height:auto;
-    gap: 0px;
-    opacity: 0px;
-    background: #F5F7FA;
+    width:100%;
 }
 .categories-div{
-    width:40vh;
-    height:auto;
+    width:15%;
+    padding:10px 0px 0px 50px;
     background-color: #ffffff;
-    padding-left:20px;
-    padding-top:20px; 
 }
 .categorieitems-div{
-    padding-top:15px;
-    width:30vh;
+    width:100%;
 }
-.All{
+.All-elements{
     font-family: Inter;
     color:#0284C7;
     cursor: pointer;
@@ -90,71 +28,79 @@ navbar-brand{
     color: #64748B;
     cursor: pointer;
 }
+.bookscontainer{
+    width:80%;
+}
 .second-div{
-    margin-left:150px;
-    margin-top:80px;
+    width:100%;
+    margin:45px;
 }
 .second-main-div{
-    display: flex;
+    width:100%;
+    display:flex;
 }
 .search-bar-div{
     display: flex;
     justify-content: space-between;
-    width:130vh;
-    height:25px;
-    padding-left:30px;
-}
-.input-group-text{
-    width:20%;
-}
-.form-control{
-    width:30vh;
+    align-items: center;
+    margin:0px 40px 0px 30px;
+    max-height:30px;
 }
 .text-div{
     display:flex;
 }
 .input-group-text{
-    width:6vh;
+    border:1px solid gray;
+    color:gray;
+    border-radius:2px;
 }
 .cards-main-container{
     padding-left:30px;
     padding-top:25px;
-    width:60vh;
+    width:45%;
 }
 .card-image{
-    height:155px;
-    width:133px;
+    max-width:133px;
     border-radius:8px;
-}
-.card-image:hover,
-.books-details-div:hover{
     cursor: pointer;
-    border:2px solid black;
 }
 .books-details-div{
-    padding-left:20px;
+    padding-left:10px;
     border-radius:9px;
+    cursor: pointer;
 }
 .rating-div{
     display: flex;
 }
-.card-div{
+.card-Div {
     display: flex;
-    width:45vh;
+    flex-direction:row;
+    width:300px;
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-Div:hover {
+    transform: rotateY(4deg) rotateX(10deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
 }
 .font-for-all{
     font-family: Inter;
+}
+.font-size{
+    font-size:small;
 }
 .heading{
     color: #334155;
     font-family: Inter;
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
-}
-.bookscontainer{
-    margin-left:8vh;
-    margin-right:30vh;
+    margin:0px;
+    overflow-wrap: break-word; 
 }
 .descrition{
     font-family: Inter;
@@ -168,7 +114,17 @@ navbar-brand{
     flex-wrap: wrap;
     justify-content:space-between;
 }
-.footer-icons{
+.stars{
+    color:gold;
+}
+.Bookshelves-head{
+    font-size: 0.83rem;
+    font-weight:bold;
+}
+/* .font-reading{
+    font-size:10px;
+} */
+/* .footer-icons{
     display: flex;
     justify-content:center;
     padding-top:50px;
@@ -180,4 +136,4 @@ navbar-brand{
     justify-content:center;
     padding-top:50px;
     color:#3D3C3C;
-}
+} */
