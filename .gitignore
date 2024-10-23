@@ -3,6 +3,7 @@
 # dependencies
 
 node_modules
+ui/package-lock.json
 /env
 
 # testing
