@@ -1,0 +1,139 @@
+.main-divcontainer{
+    width:100%;
+    min-height:100%;
+    background-color:#F8FAFC;
+}
+.brandlogo{
+    min-height:30px;
+    max-height:40px;
+}
+.imagelogodiv{
+    width:100%;
+}
+.categories-div{
+    width:15%;
+    padding:10px 0px 0px 50px;
+    background-color: #ffffff;
+}
+.categorieitems-div{
+    width:100%;
+}
+.All-elements{
+    font-family: Inter;
+    color:#0284C7;
+    cursor: pointer;
+}
+.headingiteams{
+    font-family: Inter;
+    color: #64748B;
+    cursor: pointer;
+}
+.bookscontainer{
+    width:80%;
+}
+.second-div{
+    width:100%;
+    margin:45px;
+}
+.second-main-div{
+    width:100%;
+    display:flex;
+}
+.search-bar-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 40px 0px 30px;
+    max-height:30px;
+}
+.text-div{
+    display:flex;
+}
+.input-group-text{
+    border:1px solid gray;
+    color:gray;
+    border-radius:2px;
+}
+.cards-main-container{
+    padding-left:30px;
+    padding-top:25px;
+    width:45%;
+}
+.card-image{
+    max-width:133px;
+    border-radius:8px;
+    cursor: pointer;
+}
+.books-details-div{
+    padding-left:10px;
+    border-radius:9px;
+    cursor: pointer;
+}
+.rating-div{
+    display: flex;
+}
+.card-Div {
+    display: flex;
+    flex-direction:row;
+    width:300px;
+    padding: 20px;
+    background-color:white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.card-Div:hover {
+    transform: rotateY(4deg) rotateX(10deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+}
+.font-for-all{
+    font-family: Inter;
+}
+.font-size{
+    font-size:small;
+}
+.heading{
+    color: #334155;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    margin:0px;
+    overflow-wrap: break-word; 
+}
+.descrition{
+    font-family: Inter;
+    padding-top:5px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+}
+.dynamic-div{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.stars{
+    color:gold;
+}
+.Bookshelves-head{
+    font-size: 0.83rem;
+    font-weight:bold;
+}
+/* .font-reading{
+    font-size:10px;
+} */
+/* .footer-icons{
+    display: flex;
+    justify-content:center;
+    padding-top:50px;
+    gap: 2rem;
+    color: #3D3C3C;
+}
+.footer{
+    display: flex;
+    justify-content:center;
+    padding-top:50px;
+    color:#3D3C3C;
+} */

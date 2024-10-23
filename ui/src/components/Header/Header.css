@@ -1,0 +1,43 @@
+/* .main-divcontainer{
+    width:100%;
+    min-height:100%;
+    background-color:#F8FAFC;
+} */
+.navbar-brandimg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:40%;
+}
+.navigationbar{
+    display: flex;
+    min-height:50px;
+    max-height:70px;
+    width:100%;
+    background-color: #ffffff;
+}
+.formitemscontainer{
+    display: flex;
+    justify-content:center;
+    gap:6rem;
+    align-items: center;
+    width:60%;
+    margin-left:60px;
+}
+.nav-bookshelves,
+.nav-home{
+    color:#0284C7;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+.nav-btn{
+    padding:5px;
+    margin:0px;
+    color:white;
+    font-size:auto;
+    border: transparent;
+    border-radius: 4px 4px 4px 4px;
+    background-color:#0284C7;
+}

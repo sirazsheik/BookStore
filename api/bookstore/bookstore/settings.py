@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'corsheaders',
     'rest_framework',
     'django.contrib.staticfiles',
-    'login'
+    'login',
+    'bookshelves'
 ]
 
 MIDDLEWARE = [
